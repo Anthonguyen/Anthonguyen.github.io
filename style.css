@@ -1,7 +1,7 @@
 body {
 
 
-# header {
+#header {
     text-align: center;
 }
 
@@ -11,8 +11,9 @@ body {
 }
 
 .img {
-    width:  128
-    height: 320
+    width:  232.2;
+    height: 320;
+    text-align: center;
     display: inline-block;
 }
 
