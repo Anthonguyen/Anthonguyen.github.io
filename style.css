@@ -1,4 +1,15 @@
-body {
+h{
+text-align:center;
+font-size:24px;
+color:purple;
+}
+
+p{
+font-family:Arial;
+text-align:center;
+font-size:18px;
+color:blue;
+}
 
 
 #header {
