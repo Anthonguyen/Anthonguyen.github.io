@@ -2,7 +2,7 @@ h1{
 font-family:Arial;
 text-align:center;
 font-size:36px;
-color:purple;
+color:black;
 }
 
 p{
@@ -13,6 +13,8 @@ color:blue;
 }
 
 li{
-color:black;
+font-family:Arial;
+text-align:center;
 font-size:18 px;
+color: black;
 }
