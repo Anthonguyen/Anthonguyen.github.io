@@ -1,6 +1,7 @@
 h{
+font-family:Arial;
 text-align:center;
-font-size:24px;
+font-size:36px;
 color:purple;
 }
 
@@ -11,23 +12,7 @@ font-size:18px;
 color:blue;
 }
 
-
-#header {
-    text-align: center;
-}
-
-.links {
-    text-align: center;
-    color: purple;
-}
-
-.img {
-    width:  232.2;
-    height: 320;
-    text-align: center;
-    display: inline-block;
-}
-
-.bulletpoints {
-    font-size: 18 px;
+li{
+color:black;
+font-size:18 px;
 }
