@@ -21,6 +21,10 @@ margin-left:25%;
 margin-right:25%;
 }
 
+ul{
+text-align:center;
+}
+
 li{
 font-family:Arial;
 text-align:center;
