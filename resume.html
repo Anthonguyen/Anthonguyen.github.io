@@ -1,33 +1,113 @@
-<!doctype html>
-
+ <!doctype html>
 <html>
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-indigo.css">
+<link rel="stylesheet" href="style.css">
 
 <head>
-  <title> Anthony's Resume </title>
-  <link href="style.css" rel="stylesheet"/>
+  <title> Anthoguyen Resume</title>
 </head>
 
+
 <body>
-  <h1> Anthony Nguyen </h1>
-  <h2> anthony.nguyen588814@tufts.edu </h2>
 
-  <p> Education </p>
-  <ul>
-    <li> Tufts University, Medford, MA </li>
-    <li> Bachelor of Science in Electrical Engineering </li>
-  </ul>
+<!-- Navigation bar (top)-->
+  <div class="w3-bar w3-black">
+    <a class="Image Button" href="index.html"> <img src="anthonyShadow.jpg" class="w3-button w3-circle w3-hover-red w3-ripple w3-padding-8" width="120" height="120" alt="My Cat and Me"> </a>
+    <a href="index.html" class="w3-bar-item w3-button w3-hover-blue w3-xlarge w3-padding-32 w3-right" style="width:12%"> Main Page </a>
+    <a href="resume.html" class="w3-bar-item w3-button w3-hover-green w3-xlarge w3-padding-32 w3-right w3-theme-d2" style="width:12%"> Resume </a>
+<!-- TBD   <a href="projects.html" class="w3-bar-item w3-button w3-hover-yellow w3-xxlarge w3-padding-32 w3-right" style="width:12%"> Extra </a> -->
+  </div>
 
-  <p> Skills </p>
-  <ul>
-    <li> Windows XP/7/8/10, Microsoft Office, Linux, Unix, Apple, MATLAB, Active Directory, VirtualBox, and C++ 
-    </li>
-  </ul>
 
-  <p> Work Experience </p>
-  <ul>
-    <li> Tufts Student Services Center - A&S - Technology </li>
-    <li> Maintain the performance of Windows and Apple computers, laptops, and other technologies for faculty and staff use </li>
-  </ul>
+<!-- Page Content -->
+
+  <div class="w3-container w3-theme-d5 w3-center w3-padding-32">
+    <h class="w3-xxlarge" style="text-shadow:1px 1px 0 #444">
+      <b> Anthony Nguyen </b>
+    </h>
+  </div>
+
+  <div class="w3-container w3-theme-d5 w3-center w3-padding-16">
+    <h class="w3-xlarge">
+      <i> Electrical Engineer </i>
+	  </h>
+  </div>
+
+  <div class="w3-container w3-theme-d3 w3-padding-8 w3-left-align w3-leftbar w3-animate-right">
+  <!-- <div class="w3-container w3-theme-d3 w3-padding-32 w3-leftbar w3-rightbar w3-center w3-animate-left"> Different option for animation-->
+    <h1> <b> Resume </b> </h1>
+  </div>
+  
+<!--  <div class="w3-container w3-theme-d3 w3-padding-24 w3-row-padding"> -->
+  
+    <!-- Work Experience (Left Column)   -->
+    <div class="w3-twothird w3-theme-d5">
+      <div class="w3-card w3-theme-d2">
+        <h2> <i> Work Experience </i> </h2>
+        <h3> Viasat </h3>
+		<h3> Tufts Student Services Center – A&S – Technology	                     Spring 2015 – Spring 2018 </h3>
+		  <p> Student IT worker </p>
+		  <p> Maintained the performance of Windows and Apple computers, laptops, and other technologies for faculty and staff use </p>
+		  <p> Troubleshoot various computer issues relating to hardware and software </p>
+		  <p> Documented standard procedures and troubleshooting methods </p>
+      </div>
+    </div>
+
+    <!-- Skills (Right Column)   -->  
+    <div class="w3-third w3-theme-d5">
+	  <div class="w3-half">
+	    <div class="w3-card w3-theme-d2 w3-margin-left" style="min-height:460px" >
+		  <h2> <i> <u> Software -> Languages & Design Tools </u> </i> </h2>
+			<div class="a">
+			  <p> C++ </p> <p> Python </p> <p> MATLAB </p> <p> HTML/CSS </p>
+			  <p> <a href="https://www.google.com"> LTspice </a> </p>
+			  <p> VHDL </p> 
+			</div>
+		</div>
+	  </div>
+
+      <div class="w3-half">
+        <div class="w3-card w3-theme-d2 w3-margin-left" style="min-height:460px">
+          <h2> <i> <u> Analog Electronics </u> </i> </h2>
+              <p> AC/DC Conversion (Rectification) </p> <p> Filters, MOSFETs, Sensors</p> 
+		  
+		  <h2> <i> <u> Digital Electronics </u> </i> </h2>
+            <div class="a">
+              <p> Binary </p> <p> Assembly </p> <p> FPGA </p> <p> Programmable Logic </p> <p> State Machines </p>
+            </div>
+        </div>
+      </div>
+  
+		<div class="w3-card">
+		  <div class="w3-card w3-theme-d2 w3-margin-left">
+			<h2> <b> <u> Education </u> </b> </h2>
+		      <h3> <i> Tufts University </i> </h3>
+			<p> Bachelor of Science in Electrical Engineering (BSEE) </p>
+			  <h3> Courses </h3>
+		  </div>
+		</div>
+   </div>
+
+
+<!-- Footer -->
+
+  <div class="w3-container w3-padding-16 w3-theme-d5"
+    <address>
+	  <div class="w3-card" style="width:5%">
+	    <img src="anthonyNguyen.jpg" class="w3-image" alt="myself" style="width:100%"> 
+      </div>
+	  
+      Written by Anthony Nguyen <br>
+	  
+      <a href="https://www.linkedin.com/in/nguyenanthony0110/"> Check out my Linkedin </a>
+    </address>
+  </div>
+
+  <footer class="w3-container w3-padding-4 w3-black w3-medium">
+    <h class="w3-medium>Brought to you by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-purple">w3.css</a>. May all of your dreams come true! #w3.css</h>
+  </footer>
+
 </body>
-
 </html>
